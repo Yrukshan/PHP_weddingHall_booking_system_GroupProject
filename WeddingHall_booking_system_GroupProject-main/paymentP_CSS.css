@@ -1,0 +1,202 @@
+
+            body
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                margin:20px;
+            }
+            .full-body
+            {
+                display: grid;
+                grid-template-columns: 10fr 9fr;
+                column-gap: 30px;
+            }
+            .cardPayment
+            {
+                height: 420px;
+                background-color:#D0CFCB;
+                margin-left: 130px;
+                display: flex;
+                flex-direction: column;
+                border-radius: 5px;
+                box-shadow: 0px 1px 4px rgb(182, 175, 175);
+            }
+            .paymentDetail
+            {
+                box-shadow: 0px 1px 4px rgb(182, 175, 175);
+                height: 520px;
+                background-color:#DFA899;
+                margin-right: 130px;
+                border-radius: 5px;
+            }
+            .hotelPic
+            {
+                
+                height: 300px;
+                background-color: rgb(255, 255, 183);
+                margin: 10px;
+                border-radius: 5px;
+            }
+            .moreDetail
+            {
+                height: 190px;
+                background-color: rgb(138, 140, 192);
+                margin: 10px;
+                border-radius: 5px;
+            }
+            .cNum
+            {
+                margin-left: 33px;
+                margin-top:7px;
+                width: 85%;
+                height: 35px;
+                margin-right: 30px;
+                margin-left: 30px;
+                border-radius:5px ;
+                border: none;
+                box-shadow: 1px 2px 5px rgb(181, 181, 181);
+                padding-left: 13px;
+                display: flex;
+                flex-direction: row;
+                justify-content:center;
+            }
+            .cNum:hover
+            {
+                box-shadow: 1px 2px 5px rgb(124, 124, 124);
+            }
+            .date-input
+            {
+                width: 85%;
+                height: 35px;
+                margin-right: 30px;
+                margin-left: 30px;
+                border-radius:5px ;
+                border: none;
+                box-shadow: 1px 2px 5px rgb(181, 181, 181);
+                padding-left: 13px;
+                display: flex;
+                flex-direction: row;
+                justify-content:center;
+            }
+            .date-input:hover
+            {
+                box-shadow: 1px 2px 5px rgb(124, 124, 124);
+            }
+            
+            .securityC
+            {
+                height: 35px;
+                margin-top: 0px;
+                margin-right: 30px;
+                margin-left: 30px;
+                border-radius:5px ;
+                border: none;
+                box-shadow: 1px 2px 5px rgb(181, 181, 181);
+                padding-left: 13px;
+                display: flex;
+                flex-direction: row;
+                justify-content:center;
+            }
+            .securityC:hover
+            {
+                box-shadow: 1px 2px 5px rgb(124, 124, 124);
+            }
+            .processPay
+            {
+                height: 45px;
+                font-size: 16px;
+                font-weight: bold;
+                margin-top: 28px;
+                margin-right: 50px;
+                margin-left: 50px;
+                margin-bottom: 20px;
+                border-radius:40px;
+                border: none;
+                box-shadow: 1px 2px 5px rgb(181, 181, 181);
+                padding-left: 13px;
+                padding-top: 3px;
+                background-color: rgb(31, 31, 31);
+                color: white;
+                display: flex;
+                flex-direction: row;
+                justify-content:center;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+            .processPay:hover
+            {
+                box-shadow: 1px 2px 5px rgb(96, 96, 96);
+            }
+            .processPay:active
+            {
+                background-color:rgb(46, 46, 46);
+                box-shadow: 1px 2px 5px rgb(96, 96, 96);
+            }
+
+            .price_table
+            {
+                width: 430px;
+                height: 100px;
+                margin-right: 30px;
+                margin-left: 30px;
+                margin-top: 30px;
+                border-radius:5px ;
+            }
+            .sub_total1
+            {
+                padding: 8px 0px 0px 10px;
+                font-size: 14px;
+                width: 330px;
+                height: 50px;
+                border-radius:5px ;
+                background-color: rgb(238, 221, 144);
+            }
+            .sub_total1-1
+            {
+                padding: 8px 0px 0px 10px;
+                width: 100px;
+                height: 50px;
+                border-radius:5px ;
+                border: solid;
+                border-width: 1px;
+                border-color:#c36e4d;
+                margin-left:3px;
+           
+            }
+            .sub_total2
+            {
+                padding: 8px 0px 0px 10px;
+                font-size: 14px;
+                width: 330px;
+                height: 50px;
+                border-radius:5px ;
+                background-color: rgb(238, 144, 144);
+            }
+            .sub_total2-1
+            {
+                padding: 8px 0px 0px 10px;
+                width: 100px;
+                height: 50px;
+                margin-left:3px;
+                border-radius:5px ;
+                border: solid;
+                border-width: 1px;
+                border-color:#c36e4d;
+           
+            }
+            .table-sub
+            {
+                display: flex;
+                flex-direction: row;
+            }
+            .text1
+            {
+                margin: 23px 0px 3px 20px;
+                color: rgb(70, 70, 70);
+            
+            }
+            .example-image
+            {
+                height:100%;
+                width:100%;
+            }
