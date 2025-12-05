@@ -1,0 +1,228 @@
+
+            
+            .main
+            {
+                width:740px;
+                margin :15px 280px 0px 220px;
+                border-left:solid;
+                border-right:solid;
+                border-color: #C1ADA5;
+                border-width:1px;
+            }
+            .top-section
+            {
+                display: flex;
+                flex-direction: row;
+            }
+            .user-detail
+            {
+                width: 270px;
+                height:490px;
+                box-shadow: 1px 1px 4px 0px rgb(76, 76, 76);
+                border-radius: 50px;
+                background-color:#BFbcb7 ;
+                margin:5px 15px 5px 30px ;
+            }
+            .user-pic
+            {
+                width: 195px;
+                height:195px;
+                border-radius: 50%;
+                background-color: white;
+                margin:20px 40px 10px 35px;
+                box-shadow: 1px 1px 4px 0px rgb(116, 116, 116);
+            }
+            .text1
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:17px;
+                margin:18px 0px 0px 20px
+            }
+            .dashboard
+            {
+                cursor: pointer;
+                border: solid;
+                border-width: 1px;
+                background-color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:18px;
+                width: 180px;
+                height:30px;
+                margin: 30PX 0px 0px 44px ;
+                transition: 0.1s;
+            }
+            .dashboard:hover
+            {
+                background-color: rgb(240, 240, 240);
+            }
+            .dashboard:active
+            {
+                background-color: rgb(224, 224, 224);
+            }
+            .user-acc-button
+            {
+                cursor: pointer;
+                border: none;
+                border-radius:3px;
+                box-shadow: 1px 1px 4px 0px rgb(116, 116, 116);
+                background-color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:18px;
+                width: 180px;
+                height:30px;
+                margin: 30PX 0px 0px 44px ;
+            }
+            .user-acc-button:active
+            {
+                margin: 31PX 0px 0px 45px ;
+            }
+            .hotel-acc-button
+            {
+                cursor: pointer;
+                border: none;
+                border-radius:3px;
+                box-shadow: 1px 1px 4px 0px rgb(116, 116, 116);
+                border-width: 1px;
+                background-color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:18px;
+                width: 180px;
+                height:30px;
+                margin: 30PX 0px 0px 44px ;
+            }
+            .hotel-acc-button:active
+            {
+                margin: 31PX 0px 0px 45px ;
+            }
+            .bottom-section
+            {
+                border-color: #725f5f;
+                border-radius: 3px;
+                left:10px;
+                right:10px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin:25px 30px 0px 30px ; 
+            }
+            .b-section1
+            {
+                width:340px;
+                background-color: #d3c8bf;
+                margin-right: 5px;
+                box-shadow: 1px 1px 4px 0px rgb(116, 116, 116);
+            }
+            .b-section2
+            {
+                box-shadow: 1px 1px 4px 0px rgb(116, 116, 116);
+                background-color: #d3c8bf;
+                width:340px;
+            }
+            .text2
+            {
+                margin:20px 0px 20px 40px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:18px;
+            }
+            .input
+            {
+                border-radius:3px;
+                box-shadow: 1px 1px 4px 0px rgb(116, 116, 116);
+                border:none;
+                border-width: 1px;
+                width: 240px;
+                height:26px;
+                padding-left: 10px;
+                margin: 0px 0px 20px 45px;
+            }
+            .buttons
+            {
+                display: flex;
+                flex-direction: row;
+            }
+            .active-b
+            {
+                border-radius:3px;
+                border:none;
+                background-color: white;
+                width:90px;
+                height:27px;
+                margin:0px 0px 10px 30px;
+                cursor: pointer;
+                box-shadow: 1px 1px 4px 0px rgb(116, 116, 116);
+                transition: 0.1s;
+            }
+            .active-b:hover
+            {
+                background-color:#C1ADA5;
+            }
+            .active-b:active
+            {
+                background-color:#d6beb5;
+                margin:1px 0px 10px 31px;
+            }
+            .dective-b
+            {
+                cursor: pointer;
+                border:solid;
+                border-width:1px;
+                background-color: white;
+                width:90px;
+                height:27px;
+                margin:0px 0px 10px 100px;
+                transition: 0.1s;
+            }
+            .dective-b:hover
+            {
+                background-color:#C1ADA5;
+            }
+            .dective-b:active
+            {
+                background-color:#d6beb5;
+                margin:1px 0px 10px 101px;
+            }
+            .iframe1
+            {
+                margin:10px 0px 0px 0px ;
+                width: 390px;
+                height: 170px;
+                border:none;
+                border-width: 5px;
+                box-shadow: 1px 1px 4px 0px rgb(116, 116, 116);
+                border-radius: 8px;
+
+                
+            }
+            .iframe2
+            {
+                margin:10px 0px 0px 0px ;
+                width: 390px;
+                height: 170px;
+                border:none;
+                box-shadow: 1px 1px 4px 0px rgb(116, 116, 116);
+                border-radius: 8px;
+                
+            }
+            .text-account
+            {
+                font-family: arial;
+                margin:7px 0px 4px 7px ;
+                border:none;
+                border-radius:3px;
+                box-shadow: 1px 1px 4px 0px rgb(116, 116, 116);
+                padding:4px 4px 4px 4px;
+                width:150px;
+                border-radius:3px;
+                border-width: 1px;
+                background-color: #DFA879;
+            }
+            .accounts
+            {
+                margin:0px 0px 0px 8px ;
+            }
+            .image-admin
+            {
+                width: 100%;
+                height:100%;
+                border-radius: 50%;
+                margin-left: 5px;
+            }

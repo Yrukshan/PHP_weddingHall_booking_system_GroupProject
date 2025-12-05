@@ -1,0 +1,144 @@
+
+            .full-dis
+            {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 5px;
+                row-gap: 14px;
+                margin:0px 150px 0px 150px;
+            }
+            .first
+            {
+                margin-bottom: 5px;
+                margin-left: 5px;
+            }
+            .hotelAd
+            {
+                height: 350px;
+                width: 270px;
+                border-radius: 5px;
+                padding-top:1px;
+                cursor: pointer;
+                transition: 0.25s;
+                box-shadow: 0px 0px 5px rgb(207, 207, 207);
+            }
+            .top-Ad
+            {
+                height: 227px;
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-top: 5px;
+                border-radius: 5px;
+            }
+            .hotel-name
+            {
+                height: 15px;
+                margin-left: 5px;
+                margin-top: 3px;
+                border-radius: 5px;
+                padding:3px 0px 0px 10px;
+                margin-right: 5px;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                font-weight: bold;
+                transition: 0.2s;
+            }
+            
+            .middel
+            {
+
+                display:grid;
+                grid-template-columns: 10fr 8fr;
+            }
+            .city
+            {
+                height: 30px;
+                border-radius: 5px;
+                margin-top: 3px;
+                margin-left: 5px;
+                margin-right: 5px;
+                padding:3px 0px 0px 10px;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 8px;
+                transition: 0.2s;
+            }
+            
+            .seeting
+            {
+                height: 15px;
+                border-radius: 5px;
+                margin-top: 3px;
+                margin-left: 5px;
+                margin-right: 5px;
+                padding:3px 0px 0px 10px;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                transition: 0.2s;
+            }
+            .seeting:hover
+            {
+                background-color: #DFA899;
+                border-color: white;
+            }
+            .price
+            {
+                height: 15px;
+                border-radius: 5px;
+                font-weight:bold;
+                margin-top: 3px;
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-bottom: 8px;
+                padding:3px 0px 0px 10px;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                transition: 0.2s;
+            }
+            
+            .price:hover
+            {
+                background-color: #DFA899;
+                border-color: white;
+            }
+            .ratings
+            {
+                height: 15px;
+                border-radius: 5px;
+                margin-top: 0px;
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-bottom: 5px;
+                padding:3px 0px 0px 10px;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 15px;
+            }
+            .bottom-Ad
+            {
+                border-radius: 5px;
+                border: solid;
+                border-width: 1px;
+                border-color: #DFA899;
+                margin-top: 3px;
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-bottom: 3px;
+                padding:3px 0px 0px 5px;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                transition: 0.2s;
+            }
+            .bottom-Ad:hover
+            {
+                background-color: #DFA899;
+                border-color: white;
+            }
+            
+            .hotelAd:hover
+            {
+                box-shadow: 0px 0px 5px #DFA899;
+            }
+            .default_image
+            {
+                height: 100%;
+                width: 100%;
+            }

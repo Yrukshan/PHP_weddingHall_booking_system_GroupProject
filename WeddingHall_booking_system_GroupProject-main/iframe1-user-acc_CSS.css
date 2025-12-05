@@ -1,0 +1,54 @@
+
+        .topic
+        {
+            display:grid;
+            grid-template-columns:70px 100px 130px 130px;
+            row-gap: 2px;
+            column-gap: 2px;
+        }
+        .num
+        {
+            height:25px;
+            background-color: rgb(108, 108, 162);
+        }
+        .id
+        {
+            height:25px;
+            background-color: rgb(108, 108, 162);
+        }
+        .name
+        {
+            height:25px;
+            background-color: rgb(108, 108, 162);
+        }
+        .gmail
+        {
+            height:25px;
+            background-color: rgb(108, 108, 162);
+        }
+        .num-e
+        {
+            height:25px;
+            background-color: rgb(138, 138, 211);
+        }
+        .id-e
+        {
+            height:25px;
+            background-color: rgb(138, 138, 211);
+        }
+        .name-e
+        {
+            height:25px;
+            background-color: rgb(138, 138, 211);
+        }
+        .gmail-e
+        {
+            height:25px;
+            background-color:rgb(138, 138, 211);
+        }
+        .all-acc
+        {
+            display:grid;
+            row-gap: 2px;
+            column-gap: 2px;
+        }

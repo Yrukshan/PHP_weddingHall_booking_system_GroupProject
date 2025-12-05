@@ -1,0 +1,29 @@
+
+        .all-acc
+        {
+            margin: 100px 0px 0px 300px;
+        }
+        .topic
+        {
+            display:grid;
+            grid-template-columns:120px 110px 110px 130px ;
+            row-gap: 2px;
+            column-gap: 2px;
+        }
+        .Column_name
+        {
+            height:25px;
+            background-color: rgb(157, 80, 80);
+        }
+        
+        .examples
+        {
+            height:25px;
+            background-color: rgb(211, 138, 138);
+        }
+        .all-acc
+        {
+            display:grid;
+            row-gap: 2px;
+            column-gap: 2px;
+        }
